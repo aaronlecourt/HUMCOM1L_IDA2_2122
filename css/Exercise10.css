@@ -47,6 +47,9 @@ section{
     color:white; 
     padding: 50px 0; 
 }
+#img_maps{
+    height: 300px; width: 550px;
+}
 #maps{
     padding: 50px; 
     font-family: Roboto; 
