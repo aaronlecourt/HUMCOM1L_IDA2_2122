@@ -1,0 +1,10 @@
+body{
+    padding:0; 
+    margin: 0px;
+}
+nav{
+    font-family: 'Oswald', sans-serif; 
+    text-align:center; 
+    background-color: black; 
+    padding:25px; 
+}
