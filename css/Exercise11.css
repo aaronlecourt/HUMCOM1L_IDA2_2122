@@ -1,0 +1,128 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	background-color: #0e0b23;
+	font-family: Century Gothic;
+}
+*{
+	box-sizing: border-box;
+}
+div{
+	border-radius:10px;
+}
+.container{
+	display: block;
+	width:80%; margin:auto;
+	padding:1rem;
+}
+
+#contain_header{
+	width:100%;
+	height:auto;
+	display: flex;
+}
+#head{
+	height:60px; width:10%;
+	float:left;
+	padding:12px;
+	background-image: url("https://i.pinimg.com/originals/d4/47/b8/d447b8c030bf4a4512099f19f1f5ce3e.jpg");
+	background-size:cover; background-position: 50%;
+	mix-blend-mode: lighten;
+}
+#navigation{
+	height:80px; width:80%;
+	margin-left: 1rem;
+	padding:12px;
+}
+.content{
+	height:80%; width:100%;
+	margin: 1rem 0 0rem 0; float:left;
+	color: white;
+}
+.content:hover{
+	transform:scale(1.025);
+	transition:all 0.3s;
+}
+.footer{
+	height:150px; width:100%;
+	border: 1px solid #cbc8e1	;
+	margin: 1rem 0 5rem 0; float:left;
+	padding:12px;	
+}
+h1{
+	font-size:20pt;
+	text-transform:uppercase; font-weight:bolder;
+	color: orange;
+}
+p{
+	font-size: 0.9rem;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card{
+	background-color: #3d375e;
+	padding:20px; border-radius:0 0 10px 10px;
+	height:30%; color:white; 
+}
+#img{
+	width:100%; height:70%;
+	border-radius: 10px 10px 0 0;object-fit:cover;
+}
+
+.menu{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	float:right;
+}
+.menu a{
+		display: inline-flex;
+		height:45px;
+		padding: 0.8rem 1rem;
+		margin: 0 1rem;
+		border-radius: 10px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 1rem; font-weight:400;
+		color: #cbc8e1;
+		background-color: transparent;
+		transition: all 0.2s;
+}
+#active{
+			background-color: #cbc8e1;
+			color: #3d375e;font-weight:800;
+}
+.is-active:hover {
+			opacity: 0.8;
+			background-color: #cbc8e1;
+			color: #3d375e;
+		}
+
+.menu a:active {
+			color: #3d375e;
+			background-color:#cbc8e1 ;
+		}
+#footer p, #footer h1{
+	color:white;
+	text-align:center;
+}
+.goback {
+  background-color : orange;
+  color: #3d375e;
+  padding: 20px 20px;
+  border-radius: 50px; border-style:none;
+  font-size: 20pt;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 3rem;
+  right: 8rem; z-index:2;
+}
+.goback:hover {
+  background-color: #cbc8e1;
+  color: #3d375e; transition: all 0.5s;
+}
