@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-body {
+body{
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -7,9 +7,8 @@ body {
     max-width: 100vw; 
     background-color: black;
     font-family: 'Poppins', sans-serif;
-  }
-  
-  nav {
+}
+nav{
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -18,23 +17,23 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-  }
-  nav .brand {
+}
+nav .brand{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 48px;
-  }
-  nav .brand img {
+}
+nav .brand img{
     height: 32px;
     width: auto;
-  }
-  nav .brand h6 {
+}
+nav .brand h6{
     font-weight: 600;
     font-size: 0.8rem;
     color: white;
-  }
-  nav ul {
+}
+nav ul{
     position: absolute;
     padding: 0;
     list-style: none;
@@ -42,28 +41,26 @@ body {
     flex-direction: column;
     right: 16px;
     top: 0px;
-  }
-  .card_img{
+}
+.card_img{
   background-size:cover;
   width:100%;
   opacity: 0.8;
   border-radius: 15px;
-  }
-  
-  nav ul li a {
+}
+nav ul li a{
     text-decoration: none;
     color: rgba(255,255,255,0.5);
     font-weight: 400; 
     font-size: 1rem; padding: 5px;
-  }
-  nav ul li a:hover,
-  nav ul li a.active {
+}
+nav ul li a:hover,
+nav ul li a.active{
     border-bottom: 2px solid rgba(255,255,255,0.6);
     background-color: rgba(255,255,255,0.1);
     color: rgba(255,255,255,1);border-radius: 5px;
-  }
-  
-  header {
+} 
+header{
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -74,26 +71,26 @@ body {
     background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/6/8/MFDxSQ.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  header h1,
-  header h2{
+}
+header h1,
+header h2{
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
-  }
-  nav ul li {
+}
+nav ul li {
     padding: 3px;
-  }
+}
   
-  header .cards {
+header .cards{
     width: 85%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  }
-  header .cards .card {
+}
+header .cards .card{
     border-left: 1px solid rgba(255,255,255,0);
     border-top: 1px solid rgba(255,255,255,0);
     border-bottom: 1px solid rgba(0,0,0,0);
@@ -105,8 +102,8 @@ body {
     width: 150px;
     border-radius: 16px;
     transition: all 0.5s ease;
-  }
-  header .cards .card:hover {
+}
+header .cards .card:hover{
     transition: all 1s ease;
     backdrop-filter: blur(25px);
     background: linear-gradient(275deg, #ffb41400 40%, rgba(255,255,255,0.2) 100%);
@@ -114,41 +111,87 @@ body {
     border-top: 1px solid rgba(255,255,255,0.25);
     border-bottom: 1px solid rgba(0,0,0,0.5);
     transform: translateY(-15px);
-  }
-  
-  
-  
-  header .cards .card .card__title {
+}
+header .cards .card .card__title{
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  header .cards .card .card__title h1 {
+}
+header .cards .card .card__title h1{
     font-size: 1rem;
     margin-left: 8px;
     margin: 0;
     padding: 0;
-  }
-  header .cards .card .card__title img {
+}
+header .cards .card .card__title img{
     height: 24px;
     filter: invert(100%);
-  }
-  header .cards .card .card__body {
+}
+header .cards .card .card__body{
     display: none;
-  }
-  
-   
-  @media (min-width: 870px){
+}
+header .cards .card .card__body p{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+.planets{
+    position: absolute;
+    left: 16px;
+    top: 50%; 
+    transform: translateY(-50%);
+    display: none;
+}
+.planets img {
+    filter: invert(50%);
+    width: 24px;
+    opacity: 0.8;
+}
+.planets img:hover{
+    filter: invert(100%);
+    transform: scale(1.3);
+    transition: ease all 0.5s;
+}
+.planets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.planets ul li {
+    height: 32px;
+} 
+.explore {
+    color: white;
+    position: absolute;
+    left: -4px;
+    bottom: 80px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(90deg);
+    padding: 0;
+    padding: 0;
+}
+.explore img {
+    filter: invert(100%);
+}
+#image{
+    filter: invert(100%);
+}
+#arrow{
+    transform: rotate(180deg);
+}
+
+@media (min-width: 870px){
   .header__titles{
     color: white;
     text-align: center;
     margin: 0; margin-top:4%;
     padding: 0;
-  }
-  }
+    }
+}
   
-  @media (min-width: 768px) {
-    nav ul {
+@media (min-width: 768px) {
+    nav ul{
       width: 100vw;
       left: 0;
       right: 0;
@@ -161,90 +204,35 @@ body {
     header .cards .card {
       width: 250px;
     }
-  }
+}
   
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
     header h1 {
       font-size: 9vw;
     }
     header h2 {
     font-weight: 100;
     font-size: 3vw;
-  }
-  }
+    }
+}
   
-  
-  
-  @media (min-width: 480px) {
-  nav ul li a{
+@media (min-width: 480px){
+    nav ul li a{
     float:right;
-  }
-    header .cards .card .card__body {
+    }
+    header .cards .card .card__body{
       display: block;
     }
-  }
-  header .cards .card .card__body p {
-    font-weight: 100;
-    font-size: 0.8rem;
-  }
-  
-  .planets {
-    position: absolute;
-    left: 16px;
-    top: 50%; 
-    transform: translateY(-50%);
-    display: none;
-  }
-  @media (min-width: 375px) {
-  
-  header h1{
+}
+@media (min-width: 375px){
+    header h1{
     font-size: 8vw;
-  }
-  header h2 {
+    }
+    header h2 {
     font-weight: 100;
     font-size: 4vw;
-  }
-  .planets {
+    }
+    .planets {
       display: block;
     }
-  }
-  .planets img {
-    filter: invert(50%);
-    width: 24px;
-    opacity: 0.8;
-  }
-  .planets img:hover{
-    filter: invert(100%);
-    transform: scale(1.3);
-    transition: ease all 0.5s;
-  }
-  .planets ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .planets ul li {
-    height: 32px;
-  }
-  
-  .explore {
-    color: white;
-    position: absolute;
-    left: -4px;
-    bottom: 80px;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    transform: rotate(90deg);
-    padding: 0;
-    padding: 0;
-  }
-  .explore img {
-    filter: invert(100%);
-  }
-  #image{
-    filter: invert(100%);
-  }
-  #arrow{
-    transform: rotate(180deg);
-  }
+}
