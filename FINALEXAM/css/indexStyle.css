@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
 body{
     padding: 0;
     margin: 0;
@@ -16,49 +17,53 @@ nav{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 10;
 }
 nav .brand{
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: center;
     margin-left: 48px;
+    padding-top: 25px;
+}
+nav .nav_contain{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+
 }
 nav .brand img{
     height: 32px;
     width: auto;
 }
-nav .brand h6{
-    font-weight: 600;
-    font-size: 0.8rem;
-    color: white;
-}
-nav ul{
+
+nav ul {
     position: absolute;
     padding: 0;
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    right: 16px;
+    display: flex; flex-wrap: wrap;
+    flex-direction: row;
+    left: 100px; flex: auto;
     top: 0px;
-}
+  }
 .card_img{
   background-size:cover;
-  width:100%;
+  width:100%; 
   opacity: 0.8;
   border-radius: 15px;
 }
 nav ul li a{
     text-decoration: none;
     color: rgba(255,255,255,0.5);
-    font-weight: 400; 
-    font-size: 1rem; padding: 5px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    padding: 5px;
 }
 nav ul li a:hover,
 nav ul li a.active{
     border-bottom: 2px solid rgba(255,255,255,0.6);
     background-color: rgba(255,255,255,0.1);
-    color: rgba(255,255,255,1);border-radius: 5px;
+    color: rgba(255,255,255,1); border-radius: 5px;
 } 
 header{
     width: 100vw;
@@ -72,22 +77,28 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-header h1,
-header h2{
+header .header__titles{
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 80px;
+}
+h1{
+    font-size: 8vw;
+    margin: 0; padding-top: 50px;
+}
+h2{
+    font-weight: 200;
 }
 nav ul li {
-    padding: 3px;
+    padding: 10px;
 }
   
 header .cards{
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 0 0 0 80px;
     justify-content: center;
 }
 header .cards .card{
@@ -99,7 +110,7 @@ header .cards .card{
     background: linear-gradient(275deg, #ffb41400 40%, rgba(0,0,0,0.4) 100%);
     backdrop-filter: blur(5px);
     color: white;
-    width: 150px;
+    width: 250px;
     border-radius: 16px;
     transition: all 0.5s ease;
 }
@@ -180,59 +191,45 @@ header .cards .card .card__body p{
 #arrow{
     transform: rotate(180deg);
 }
-
-@media (min-width: 870px){
-  .header__titles{
-    color: white;
-    text-align: center;
-    margin: 0; margin-top:4%;
-    padding: 0;
-    }
+header .cards .card .card__body{
+    display: block;
 }
-  
-@media (min-width: 768px) {
+  .planets {
+    display: block;
+}
+
+ @media (max-width: 1330px){
+    header .cards .card{
+         width: 200px;
+     }
+ }
+
+ @media (max-width: 830px){
+    ::-webkit-scrollbar {
+        width: 8px;
+      }
+    .header__titles{
+        padding-top: 50px;
+        
+    }
+    header .cards .card{
+        width: 70%;
+    }
+    header .cards .card:hover{
+        transform: translateX(-10px);
+    }
+    header .cards{
+        overflow-y: scroll;
+    }
     nav ul{
-      width: 100vw;
-      left: 0;
-      right: 0;
-      flex-direction: row;
-      justify-content: center;
+        flex-direction: column;
+        top: 70px;
+        left: 50;
     }
     nav ul li {
-      padding: 8px;
+        
+        transform: rotate(90deg);
+        padding: 40px 0 0 0;
     }
-    header .cards .card {
-      width: 250px;
-    }
-}
-  
-@media (min-width: 640px) {
-    header h1 {
-      font-size: 9vw;
-    }
-    header h2 {
-    font-weight: 100;
-    font-size: 3vw;
-    }
-}
-  
-@media (min-width: 480px){
-    nav ul li a{
-    float:right;
-    }
-    header .cards .card .card__body{
-      display: block;
-    }
-}
-@media (min-width: 375px){
-    header h1{
-    font-size: 8vw;
-    }
-    header h2 {
-    font-weight: 100;
-    font-size: 4vw;
-    }
-    .planets {
-      display: block;
-    }
-}
+ }
+
