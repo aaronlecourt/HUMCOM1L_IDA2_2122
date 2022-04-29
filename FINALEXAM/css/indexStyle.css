@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/alphacentauri');
 body{
     padding: 0;
     margin: 0;
@@ -72,21 +72,25 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/6/8/MFDxSQ.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.ctfassets.net/7lhcm73ukv5p/3tpEmALdTFSHkgXwgJPFCJ/5368e5be6c65dcd878e8c30c86c11f73/evergreen-hero-v2.jpg?fl=progressive');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 header .header__titles{
     color: white;
     text-align: center;
     margin: 0 0 0 80px;
+    line-height: 1.3;
 }
 h1{
-    font-size: 8vw;
+    font-size: 6vw;
     margin: 0; padding-top: 50px;
+    font-family: "AlphaCentauri" !important;
 }
 h2{
     font-weight: 200;
+    font-family: 'Poppins', sans-serif;
 }
 nav ul li {
     padding: 10px;
@@ -104,8 +108,8 @@ header .cards .card{
     border-left: 1px solid rgba(255,255,255,0);
     border-top: 1px solid rgba(255,255,255,0);
     border-bottom: 1px solid rgba(0,0,0,0);
-    padding: 16px;
-    margin: 8px;
+    padding: 20px;
+    margin: 7px;
     background: linear-gradient(275deg, #ffb41400 40%, rgba(0,0,0,0.4) 100%);
     backdrop-filter: blur(5px);
     color: white;
@@ -122,6 +126,7 @@ header .cards .card:hover{
     border-bottom: 1px solid rgba(0,0,0,0.5);
     transform: translateY(-15px);
 }
+
 header .cards .card .card__title{
     display: flex;
     flex-direction: row;
@@ -143,6 +148,10 @@ header .cards .card .card__body{
 header .cards .card .card__body p{
     font-weight: 100;
     font-size: 0.8rem;
+}
+button{
+    background-color: rgba(0,0,0,0);
+    border: none;
 }
 .planets{
     position: absolute;
@@ -229,13 +238,12 @@ header .cards .card .card__body{
     }
     nav ul{
         flex-direction: column;
-        top: 70px;
-        left: 50;
+        top: 60px;
+        left: 60;
     }
     nav ul li {
-        
         transform: rotate(90deg);
-        padding: 40px 0 0 0;
+        padding: 50px 0 0 0;
     }
  }
 
