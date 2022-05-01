@@ -1,0 +1,94 @@
+h2{
+    margin: 0;
+    font-family: "AlphaCentauri" !important;
+}
+.main_container{
+    z-index: 50;
+    display: flex;
+    margin: 20px 40px;
+    color: white;
+    flex-wrap: wrap;
+    height: 80%;  
+}
+.main_container > div{
+    padding: 20px 40px;
+    
+}
+.left_side{
+    flex: 2;
+    display: inline;
+}
+.right_side{
+    flex: 1;
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: 200;
+}
+#left_title{
+    flex: 1;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    font-size: 2rem;
+}
+#left_title img{
+    height: 60px;
+    width: 70px;
+    filter: invert(100%);
+    mix-blend-mode: screen;
+}
+.left_image{
+    flex: 1;
+    border-radius: 50px;
+    height: 80%; opacity: 0.7;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+#amarr_img{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://www.eve-wallpaper.com/download/XGpWXuAsuGeEZOTjz5NwJ2zExWysXFHv09tbnNzBBpaOy6BFYSoquF8uPo8JBsbZI0JMq9ld6K9Fxc7zTAtvgcBGjKqsbHra4Y8QKkMM5H3LluDpHIL5caP9xlcsEzLkFT6jq1skeO1ohLkiY3K9iJYAKd0vguxQrubuaIsrqkEpaWpJEMt9ZlQ3E2uAiYEVQBgkZBWV/large');
+}
+@media (max-width: 1350px) {
+    .left_image{
+        border-radius: 50px;
+        height: 50%;
+    }
+    .right_side{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 1000px) {
+    .main_container {
+        flex-direction: column;
+        max-width: 80%;
+        padding-left: 20px;
+      }
+    .left_image{
+        border-radius: 20px;
+        height: 60%;
+    }
+    .right_side{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 900px) {
+    .main_container {
+      flex-direction: column;
+      max-width: 80%;
+      padding-left: 80px;
+    }
+    .left_image{
+        border-radius: 15px;
+        height: 70%;
+    }
+    .right_side{
+        overflow-y: scroll;
+    }
+  }
+@media (max-width: 600px){
+    .left_image{
+        border-radius: 15px;
+        height: 50%;
+    }
+}

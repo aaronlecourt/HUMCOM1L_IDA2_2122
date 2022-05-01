@@ -3,7 +3,7 @@ function backgroundone() {
     document.getElementById("clickPlanet").style.backgroundSize = "cover";
 }
 function backgroundtwo() {
-    document.getElementById("clickPlanet").style.background = "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://images.ctfassets.net/7lhcm73ukv5p/4aO41OX3cxAzGcPN4HGKcE/dbaf443f34a59d5a2ebe06b11a01ac32/www-bottom-bg.jpg?w=2400&q=75&fm=webp')no-repeat";
+    document.getElementByClass("clickPlanet").style.background = "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://images.ctfassets.net/7lhcm73ukv5p/4aO41OX3cxAzGcPN4HGKcE/dbaf443f34a59d5a2ebe06b11a01ac32/www-bottom-bg.jpg?w=2400&q=75&fm=webp')no-repeat";
     document.getElementById("clickPlanet").style.backgroundSize = "cover";
 }
 function backgroundthree() {
