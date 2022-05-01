@@ -118,7 +118,7 @@ header .cards .card{
     transition: all 0.5s ease;
 }
 header .cards .card:hover{
-    transition: all 1s ease;
+    transition: all 0.3s ease;
     backdrop-filter: blur(25px);
     background: linear-gradient(275deg, #ffb41400 40%, rgba(255,255,255,0.2) 100%);
     border-left: 1px solid rgba(255,255,255,0.5);
@@ -181,14 +181,34 @@ button{
 .explore {
     color: white;
     position: absolute;
-    left: -4px;
-    bottom: 80px;
+    left: -80px;
+    bottom: 120px;
     font-size: 1rem;
     display: flex;
     flex-direction: column;
     transform: rotate(90deg);
     padding: 0;
-    padding: 0;
+}
+.readmore{
+    margin-top: 15px;
+}
+.readmore a{
+    width: 100px;
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 15px;
+    padding: 5px;
+    font-family: "AlphaCentauri" !important;
+    transition: 0.3s;
+    color: white; opacity: 0.3;
+    text-decoration: none;
+}
+
+.readmore a:hover{
+    color: black;
+    border: 2px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    opacity: 1;
 }
 .explore img {
     filter: invert(100%);
