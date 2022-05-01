@@ -20,6 +20,7 @@ h2{
 }
 .right_side{
     flex: 1;
+    margin-top: 90px;
     display: inline-flex;
     flex-direction: column;
     font-weight: 200;
@@ -52,12 +53,14 @@ h2{
 @media (max-width: 1350px) {
     .left_image{
         border-radius: 50px;
-        height: 50%;
+        height: 70%;
     }
     .right_side{
         font-size: 0.9rem;
+        margin-top: 20px;
     }
 }
+
 @media (max-width: 1000px) {
     .main_container {
         flex-direction: column;
@@ -66,10 +69,11 @@ h2{
       }
     .left_image{
         border-radius: 20px;
-        height: 60%;
+        height: 70%;
     }
     .right_side{
         font-size: 0.9rem;
+        margin-top: 10px;
     }
 }
 @media (max-width: 900px) {
@@ -84,11 +88,21 @@ h2{
     }
     .right_side{
         overflow-y: scroll;
+        margin-top: 6px;
     }
   }
 @media (max-width: 600px){
     .left_image{
         border-radius: 15px;
-        height: 50%;
+        height: 70%;
+    }
+    .right_side{
+        margin-top: -10px;
+    }
+}
+@media (max-width: 548px){
+    .left_image{
+        border-radius: 15px;
+        height: 60%;
     }
 }
