@@ -33,9 +33,14 @@ h2{
 }
 #left_title img{
     height: 60px;
-    width: 70px;
     filter: invert(100%);
     mix-blend-mode: screen;
+}
+#amarr_icon{
+    width: 70px;
+}
+#caldari_icon{
+    width: 60px;
 }
 .left_image{
     flex: 1;
@@ -49,6 +54,11 @@ h2{
     background-size: cover;
     background-position: 50% 50%;
     background-image: url('https://www.eve-wallpaper.com/download/XGpWXuAsuGeEZOTjz5NwJ2zExWysXFHv09tbnNzBBpaOy6BFYSoquF8uPo8JBsbZI0JMq9ld6K9Fxc7zTAtvgcBGjKqsbHra4Y8QKkMM5H3LluDpHIL5caP9xlcsEzLkFT6jq1skeO1ohLkiY3K9iJYAKd0vguxQrubuaIsrqkEpaWpJEMt9ZlQ3E2uAiYEVQBgkZBWV/large');
+}
+#caldari_img{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://crossingzebras.com/wp-content/uploads/2016/04/Concord.1394026880.jpg');
 }
 @media (max-width: 1350px) {
     .left_image{
