@@ -8,11 +8,10 @@ h2{
     margin: 20px 40px;
     color: white;
     flex-wrap: wrap;
-    height: 80%;  
+    height: 80%;
 }
 .main_container > div{
     padding: 20px 40px;
-    
 }
 .left_side{
     flex: 2;
@@ -42,10 +41,18 @@ h2{
 #caldari_icon{
     width: 60px;
 }
+#gallente_icon{
+    width: 45px;
+}
+#minmatar_icon{
+    width: 60px;
+}
+
 .left_image{
     flex: 1;
     border-radius: 50px;
-    height: 80%; opacity: 0.7;
+    height: 80%;
+    opacity: 0.7;
     border-left: 1px solid rgba(255,255,255,0.5);
     border-top: 1px solid rgba(255,255,255,0.25);
     border-bottom: 1px solid rgba(0,0,0,0.5);
@@ -60,6 +67,17 @@ h2{
     background-position: 50% 50%;
     background-image: url('https://images.contentful.com/1gqwxa4vbed9/66nRED7LtAr9hC7wZleRmJ/b5635a89ffb46c12ce5c094652b7f2a4/Caldari_structure.png');
 }
+#gallente_img{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://images.ctfassets.net/1gqwxa4vbed9/HSFn7BtofAgfOSP9ADi2T/0aa603fce4c875dd04788168c58311c0/corporations.jpg');
+}
+#minmatar_img{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('http://crossingzebras.com/wp-content/uploads/2015/06/EVE_Online-43827.jpg');
+}
+
 @media (max-width: 1350px) {
     .left_image{
         border-radius: 50px;
@@ -104,7 +122,7 @@ h2{
 @media (max-width: 600px){
     .left_image{
         border-radius: 15px;
-        height: 70%;
+        height: 60%;
     }
     .right_side{
         margin-top: -10px;
@@ -113,6 +131,6 @@ h2{
 @media (max-width: 548px){
     .left_image{
         border-radius: 15px;
-        height: 60%;
+        height: 50%;
     }
 }
