@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/alphacentauri');
+::-webkit-scrollbar {
+    width: 8px; height: 4px;
+    background-color: rgba(0,0,0,0.3);
+  }
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
 /*loader css*/
 .loader_bg{
     position: fixed;
@@ -75,6 +82,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 500;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0.3),rgba(0,0,0,0.0));
 }
 nav .brand{
     display: block;

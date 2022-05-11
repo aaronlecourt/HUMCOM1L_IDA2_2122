@@ -1,0 +1,100 @@
+#neweden_body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://crossingzebras.com/wp-content/uploads/2017/01/eve-ascension-frontpageH.png);
+    background-size: cover;
+}
+.eden_headcontain{
+    background: url(https://crossingzebras.com/wp-content/uploads/2017/01/eve-ascension-frontpageH.png);
+    height: 75%; top:0;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eden-img{
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+.eden_content p, h1, h3{
+    color: white;
+    font-weight: 100;
+}
+.eden_content h1{
+    font-size: 25pt;
+    padding: 15px 0 0 0;
+}
+.eden_content h3{
+    font-weight: 500;
+}
+.eden_content{
+        flex-direction: row;
+        display: flex; width: 60%;
+        margin: auto;
+        margin-top: -500;
+        margin-bottom: 100px;
+        font-size: 0.9rem;
+}
+#eden_title{
+    text-align: center;
+    color: white;
+    font-size: 100pt;
+    padding-top: 120px;
+}
+.eden_left{
+    background: linear-gradient(275deg, #8f8f8f00 0%, rgba(0,0,0,0.5)0%);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    flex: 2;
+}
+.eden_right{
+    padding-left: 50px;
+    flex: 1;
+}
+@media (max-width: 1330px){
+    .eden_content{
+        flex-direction: column;
+        display: flex; width: 80%;
+        margin: auto;
+        margin-top: -500;
+        margin-bottom: 100px;
+        font-size: 0.9rem;
+     }
+ }
+
+ @media (max-width: 900px){
+    .eden_content{
+        flex-direction: column;
+        display: flex; width: 70%;
+        padding-left: 70;
+        margin: auto;
+        margin-top: -500;
+        margin-bottom: 100px;
+        font-size: 0.9rem;
+     }
+    .eden_left{
+        background: linear-gradient(275deg, #8f8f8f00 0%, rgba(0,0,0,0.5)0%);
+        backdrop-filter: blur(5px);
+        padding: 50px;
+        flex: 1;
+    }
+    .eden_right{
+        padding-left: 50px;
+        
+    }
+    #eden_title{
+        text-align: center;
+        color: white;
+        padding-left: 70;
+        font-size: 72pt;
+        padding-top: 120px;
+    }
+ }
+ @media (max-width: 500px){
+     .eden_content{
+         font-size: 0.7rem;
+         padding-left: 80;
+     }
+     #eden_title{
+        font-size: 4rem;
+     }
+ }
