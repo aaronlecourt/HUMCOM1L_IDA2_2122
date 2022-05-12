@@ -1,0 +1,74 @@
+body{
+    overflow: hidden;
+}
+#contactus_body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://crossingzebras.com/wp-content/uploads/2017/01/eve-ascension-frontpageH.png);
+    background-size: cover;
+}
+iframe{
+    filter: invert(100%) grayscale(100%);
+    mix-blend-mode: screen;
+    opacity: 0.6;
+}
+.contact_left{
+    flex: 1;
+}
+.contact_right{
+    flex: 1;
+}
+
+.contact_maincontain {
+    display: inline-flex;
+    width: 80%;
+    flex-direction: row;
+    background: #00000059;
+    margin: 5% auto;
+    position: relative;border-radius: 10px;
+    
+  }
+  .contact_maincontain .map {
+    width: 100%;
+    float: left;border-radius: 15px;
+  }
+  .contact_maincontain .contact-form {
+    width: 80%;
+    margin-left: 1%;
+    float: left;
+    backdrop-filter: blur(5px);
+  }
+  .contact_maincontain .contact-form .title {
+    font-size: 2.5em;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    color: white;
+    margin: 5% 8%;
+  }
+  .contact_maincontain .contact-form .subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 4% 5% 8%;
+    color: white;
+  }
+  .contact_maincontain .contact-form input,
+  .contact_maincontain .contact-form textarea {
+    width: 100%;
+    padding: 3%;
+    margin: 1% 5%; 
+    color: white;
+    /*border: 1px solid white;*/
+    background: #1f1f1f62; border: none;
+    box-shadow: inset 0px 0px 5px white;
+    border-radius: 15px;
+  }
+  .contact_maincontain .contact-form input::placeholder,
+  .contact_maincontain .contact-form textarea::placeholder {
+    color: white; font-family: 'Poppins', sans-serif;
+  }
+  .contact_maincontain .contact-form .btn-send {
+    background: #dfdfdf62; border: none;
+    width: 180px;border-radius: 15px;
+    height: 40px;
+    color: #F8F8F8;
+    font-weight: 700;
+    margin: 2% 8%;font-family: 'Poppins', sans-serif;
+  }
