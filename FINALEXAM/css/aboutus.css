@@ -66,9 +66,10 @@ dl {
       border-bottom: 0;
   }
   
-  dd {
+  dd, p {
       margin-left: 0;
       padding: 1em 1em;
+      font-weight: 100;
   }
   @media (max-width:900px){
     .aboutus_maincontain{
