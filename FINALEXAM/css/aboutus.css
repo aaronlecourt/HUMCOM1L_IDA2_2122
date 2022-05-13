@@ -82,4 +82,14 @@ dl {
         padding-left: 5px;
     }
   }
+  @media (max-width: 1500px) {
+    .aboutus_left{
+        overflow-y: scroll;
+    }
+    .aboutus_maincontain{
+        flex-direction: column;
+        margin-left: 100;
+        top: 50;
+    }
+  }
 
