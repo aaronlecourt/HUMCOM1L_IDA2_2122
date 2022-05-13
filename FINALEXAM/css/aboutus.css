@@ -2,7 +2,7 @@ body{
     overflow: hidden;
 }
 #aboutus{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://wallpaperaccess.com/full/3549247.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.ctfassets.net/7lhcm73ukv5p/6hdkCsWnO8yGeKeMKYs2O8/099d157d1eb36bc7b7068b805608bcce/6_2460x1440.jpg);
     background-size: cover;
 }
 .aboutus_maincontain{
