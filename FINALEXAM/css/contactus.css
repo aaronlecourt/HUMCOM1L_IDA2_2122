@@ -8,7 +8,7 @@ body{
 iframe{
     filter: invert(100%) grayscale(100%);
     mix-blend-mode: screen;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .contact_left{
     flex: 1;
@@ -38,7 +38,7 @@ iframe{
   }
   .contact_maincontain .contact-form .title {
     font-size: 2.5em;
-    font-family: "Libre Franklin", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: white;
     margin: 5% 8%;
@@ -71,9 +71,26 @@ iframe{
     color: #F8F8F8;
     font-weight: 700;
     margin: 2% 8%;font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+  }
+  .contact_maincontain .contact-form .btn-send:hover{
+      background-color: white;
+      color: black;
   }
 @media (max-width:900px){
     .contact_maincontain{
         flex-direction: column;
+        margin-left: 100;
+        overflow-y: scroll;
     }
+    .contact_left{
+        flex: 1;
+    }
+    .contact_right{
+        flex: 1;
+    }
+    .contact_maincontain .map {
+        width: 100%; 
+        float: left;border-radius: 15px;
+      }
 }
