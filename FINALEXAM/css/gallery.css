@@ -4,8 +4,8 @@ body{
 }
 
 .gallery_contain{
-    width: 100%;
-    padding:100;
+    width: 100vw;
+    padding:100 0 50 0;
 }
 .pictures-grid {
 	display: flex;
@@ -36,10 +36,10 @@ img:hover{
 	}
 }
 
-/* Menu */
 .categories {
 	list-style: none;
 	display: flex;
+    flex-direction: row;
 	align-items: center;
     color: white;
 }
@@ -55,4 +55,9 @@ img:hover{
 .categories li {
 	font-size: 1em;
 	cursor: pointer;
+}
+@media (max-width: 910px){
+    .categories, .gallery_contain{
+        padding-left: 50;
+    }
 }

@@ -597,11 +597,6 @@ const pictures = [
 	},                                                      
     {
 		url:
-			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/654.jpg',
-		category: 'gallente'
-	},                                                      
-    {
-		url:
 			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/650.jpg',
 		category: 'gallente'
 	},                                                      
@@ -674,6 +669,271 @@ const pictures = [
 		url:
 			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/671.jpg',
 		category: 'gallente'
+	},                                                      
+    {//minmatar
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11400.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11371.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/4310.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/24694.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/639.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/644.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/22440.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/12735.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/24483.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/16231.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/24702.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11961.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/37480.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/22468.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/22444.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/588.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11182.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/630.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/629.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/631.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/622.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/12747.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/32878.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/16242.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/19722.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11387.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/37606.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11963.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/20189.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/598.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/599.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/586.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/587.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/585.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/3766.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/651.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/652.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/653.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/12015.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11999.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/12013.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11196.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11198.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/22456.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/28846.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11978.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/28665.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/11132.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/12034.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/29990.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/22852.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/34562.jpg',
+		category: 'minmatar'
+	},                                                      
+    {
+		url:
+			'https://www.eveonlineships.com/immagini/toolkit/RendersJpg/23773.jpg',
+		category: 'minmatar'
 	}
 ];
 
